@@ -1,0 +1,13 @@
+// Modules - Encapsulated Code (only share minimum)
+
+//const names = require('./4-names')
+const {jennan, jumana} = require('./4-names')
+const sayHi = require('./5-utils')
+const flavor = require('./6-flavor')
+require('./7-mind-grenade')
+console.log(flavor)
+//sayHi(names.jennan)
+//sayHi(names.jumana)
+
+sayHi(jennan)
+sayHi(jumana)
